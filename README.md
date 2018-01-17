@@ -8,15 +8,15 @@ It's fairly common that I forget where a file is in my stashes and I spend tons 
 
 Given you've cloned and sourced the function in the file:
 
- `
- # For a file that is present
+```
+# For a file that is present
  
- $ search_stash accounts_controller_spec
- Your file was found in stash number: 2
+$ search_stash accounts_controller_spec
+Your file was found in stash number: 2
  
- # For non-present files
+# For non-present files
  
- $ search_stash acro
- We were unable to find the specified file
-`
+$ search_stash acro
+We were unable to find the specified file
+ ```
 
