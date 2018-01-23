@@ -1,4 +1,4 @@
-# search_stash
+# Where's my stash?
 
 ## Why
 
