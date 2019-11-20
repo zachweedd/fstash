@@ -1,4 +1,4 @@
-function search_stash () {
+function fstash () {
   STASH_COUNT=`git stash list | tail -n1 | awk '{print substr($1,8,2)}'`
 
   if [ "$STASH_COUNT" -ge "0" ]; then
